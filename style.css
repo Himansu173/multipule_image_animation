@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+
+.outerBox {
+    position: absolute;
+    margin: 3rem 0 0 17rem;
+    height: 26rem;
+    width: 51rem;
+    overflow: hidden;
+}
+
+.innerBox {
+    margin-left: 31rem;
+    position: absolute;
+    margin-top: 6.45rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.img {
+    position: absolute;
+    margin-left: 1rem;
+    width: 9rem;
+    height: 13rem;
+    border-radius: 15px;
+    background-color: rgb(242, 255, 0);
+    overflow: hidden;
+}
+
+.img:nth-child(1) {
+    scale: 2;
+    width: 22.5rem;
+    margin-left: -25vw;
+    border-radius: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.img:nth-child(3) {
+    margin-left: 11rem;
+}
+
+.img:nth-child(4) {
+    margin-left: 21rem;
+}
+
+.img:nth-child(5) {
+    margin-left: 31rem;
+}
+
+.img:nth-child(6) {
+    margin-left: 41rem;
+}
+
+.img:nth-child(7) {
+    margin-left: 51rem;
+}
+
+.img:nth-child(8) {
+    margin-left: 61rem;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#button {
+    margin: 21rem 0 0 19.5rem;
+    position: absolute;
+}
+
+#button img {
+    cursor: pointer;
+}
